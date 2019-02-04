@@ -1,0 +1,6 @@
+N=int(input())
+x=list(map(int,input().split()))
+y=max(x)
+z=min(x)
+a=(y+z)//2
+print(a)
